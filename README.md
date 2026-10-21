@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project is an end-to-end data analysis of the Kaggle **"Netflix Movies and TV Shows"** dataset (approx. 8,800 titles). The goal is to demonstrate a robust data manipulation pipeline, from raw data ingestion and cleaning to exploratory data analysis (EDA).
 
-This repository follows a phased approach. **Current Status: Phase 1 (Data Cleaning) Complete.**
+This repository follows a phased approach. **Current Status: Phase 1 (Data Cleaning & EDA) Complete.**
 
 ## 📊 Dataset
 *   **Source:** Kaggle - Netflix Movies and TV Shows
@@ -30,6 +30,20 @@ Key data manipulation steps included:
 6.  **Feature Engineering:** Created `years_to_netflix`, `decade`, and `is_recent` columns for deeper temporal analysis.
 
 **Final Output:** A clean dataset with 8,797 rows and 18 columns, with 0 missing values in critical columns.
+
+## 📈 Key Findings
+*   **Explosive Growth:** Netflix saw massive content expansion between 2015 and 2019. TV Shows saw a massive surge, showing a shift in content strategy.
+*   **Global Dominance:** The United States is the top content producer, followed by India and the UK.
+*   **Genre Focus:** International Movies, Dramas, and Comedies dominate the platform.
+*   **Mature Audiences:** The vast majority of content is rated TV-MA, TV-14, or R.
+
+### 📊 Visualizations
+
+**Titles Added Per Year (Movies vs. TV Shows):**
+![Titles Added Per Year](images/titles_per_year.png)
+
+**Top 10 Countries by Content Production:**
+![Top 10 Countries](images/top_countries.png)
 
 ## 🚀 How to Run Locally
 
